@@ -3,7 +3,7 @@
 Быстрый старт
 # 1. Клонируйте репозиторию
 `git clone https://github.com/qwuewe1/project.git`
-#  Введите в терминал
+# 2. Введите в терминал
 `cd fire‑maze‑escape`
 
 # 3. Установите зависимости
