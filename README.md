@@ -40,5 +40,4 @@ burn.mp3             # звук поражения
 
 
 #Отчёт
-<https://<YOUR-USERNAME>.github.io/fire‑maze‑escape/>
-
+`https://github.com/qwuewe1/project/blob/main/index.html`
