@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Fire Maze Escape — отчёт</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root{--accent:#ff6a00;font-family:system-ui,Arial,sans-serif;}
+    body{margin:0;color:#222;background:#faf7f3;line-height:1.6;}
+    header{background:var(--accent);color:#fff;padding:2rem 1rem;text-align:center;}
+    h1{margin:0;font-size:2.2rem;}
+    main{max-width:900px;margin:auto;padding:2rem 1rem;}
+    img{max-width:100%;height:auto;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.15);}
+    section{margin-bottom:3rem;}
+    pre{background:#272822;color:#f8f8f2;padding:1rem;border-radius:6px;overflow-x:auto;}
+    code{font-family:monospace;}
+    a{color:var(--accent);}
+    footer{background:#eee;padding:1rem;text-align:center;font-size:.9rem;}
+    .screens{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔥 Побег из горящего лабиринта</h1>
+    <p>Мини‑игра на Python + Pygame: выберитесь из лабиринта быстрее, чем вспыхнет огонь!</p>
+    <a href="https://github.com/qwuewe1/project" style="color:#fff;text-decoration:underline;">Исходный код на GitHub</a>
+  </header>
 
+  <main>
+    <section id="about">
+      <h2>О проекте</h2>
+      <p><strong>Fire Maze Escape</strong> генерирует случайный лабиринт размером 30×30 клеток. После старта в одной из стен появляется <em>выход</em>. Из нескольких случайных точек начинает распространяться <em>огонь</em>. 
+      Ваша задача — дойти до выхода прежде, чем путь будет отрезан пламенем.</p>
+    </section>
+
+    <section id="screenshots">
+      <h2>Скриншоты</h2>
+      <div class="screens">
+        <img src="https://github.com/user-attachments/assets/6b45a06a-40c4-428f-9e2f-a55ca5fa9953" alt="Чуть огня">
+        <img src="https://github.com/user-attachments/assets/6b45a06a-40c4-428f-9e2f-a55ca5fa9953" alt="Распространение огня">
+      </div>
+    </section>
+
+    <section id="howto">
+      <h2>Инструкция по запуску</h2>
+      <pre><code>git clone git clone https://github.com/qwuewe1/project.git
+cd project
+pip install -r requirements.txt
+python summative.py
+</code></pre>
+      <p>После запуска введите <code>1</code> для авто‑режима или <code>2</code> и управляйте стрелками.</p>
+    </section>
+
+    <section id="assets">
+      <h2>Аудио</h2>
+      <p>Если хотите подгрузите свои mp3‑файлы <code>schizophrenia1.mp3</code>, <code>victory.mp3</code> и <code>burn.mp3</code></p>
+    </section>
+
+    <section id="tech">
+      <h2>Технологии</h2>
+      <ul>
+        <li>Python 3.9+</li>
+        <li>Алгоритм генерации лабиринта «depth‑first search»</li>
+        <li>Поиск пути — <em>BFS</em></li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
