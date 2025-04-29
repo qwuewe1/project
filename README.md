@@ -2,8 +2,9 @@
 Это динамическая мини игра на Python и Pygame, где вам надо провести персонажа по случайно сгенерированному лабиринту к одному из выходов, пока вас не догнал распространяющийся по зднаию огонь
 Быстрый старт
 # 1. Клонируйте репозиторию
-git clone https://github.com//fire‑maze‑escape.git
-cd fire‑maze‑escape
+`git clone https://github.com/qwuewe1/project.git`
+Потом введите в терминал
+`cd fire‑maze‑escape`
 
 # 2. Установите зависимости
 `pip install -r requirements.txt`
