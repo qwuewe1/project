@@ -35,7 +35,7 @@ burn.mp3             # звук поражения
 ## Скриншоты
 
 ![2](https://github.com/user-attachments/assets/6b45a06a-40c4-428f-9e2f-a55ca5fa9953)
-![Снимок экрана 2025-04-29 235738](https://github.com/user-attachments/assets/c2b32d26-c367-4a38-b606-3b2053fb2aeb)
+![Снимок экрана 2025-04-29 235738]([https://github.com/user-attachments/assets/c2b32d26-c367-4a38-b606-3b2053fb2aeb](https://github.com/user-attachments/assets/6b45a06a-40c4-428f-9e2f-a55ca5fa9953))
 ![1](https://github.com/user-attachments/assets/c5cbdb3a-9bd9-4aae-9072-7e5cc9b8789e)
 
 
