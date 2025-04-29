@@ -40,4 +40,4 @@ burn.mp3             # звук поражения
 
 
 #Отчёт
-`https://github.com/qwuewe1/project/blob/main/index.html`
+`https://qwuewe1.github.io/project/`
